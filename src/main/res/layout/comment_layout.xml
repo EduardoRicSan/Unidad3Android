@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv_comment"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_comment"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_comment"
+            android:layout_toRightOf="@id/iv_comment"
+            android:textSize="15pt"
+            android:text="@string/comment"
+            />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_msg"
+            android:layout_toRightOf="@id/iv_comment"
+            android:layout_below="@+id/tv_comment"
+            android:text="@string/message"
+            android:textSize="10pt"
+
+            />
+
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ib_edit_comment"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_comment"
+            android:layout_toEndOf="@+id/tv_comment" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_created"
+            android:layout_below="@+id/tv_comment"
+            android:text="@string/created"
+            android:textSize="10pt"
+            android:layout_marginLeft="20dp"
+            android:layout_toStartOf="@id/ib_edit_comment"
+          />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ib_delete_comment"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_below="@+id/ib_edit_comment"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

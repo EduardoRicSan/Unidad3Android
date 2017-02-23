@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="type_product_name">Type product name</string>
+    <string name="type_price_of_product">Type price of product</string>
+    <string name="save_product">Save product</string>
+    <string name="type_stock_product">Type stock product</string>
+    <string name="introduce_comment">Introduce comment</string>
+    <string name="introduce_message">Introduce message</string>
+    <string name="introduce_date_of_create">Introduce date of Create</string>
+    <string name="save_comment">Save Comment</string>
+    <string name="comment">Comment</string>
+    <string name="message">Message</string>
+    <string name="created">Created</string>
+</resources>
